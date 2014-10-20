@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+      <TextView
+        android:id="@+id/lbl_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/txt_todo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lbl_name"
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/lbl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_todo_name"
+        android:layout_marginTop="26dp"
+        android:text="Progress" />
+    
+    <Spinner
+        android:id="@+id/spinner_todo_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lbl_progress"
+        android:layout_marginTop="10dp" />
+
+  
+
+</RelativeLayout>

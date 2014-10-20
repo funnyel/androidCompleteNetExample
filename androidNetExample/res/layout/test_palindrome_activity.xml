@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lbl_input_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input palindrome" />
+
+    <EditText
+        android:id="@+id/txt_input_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_test_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Palindrome" />
+
+    <TextView
+        android:id="@+id/lbl_palindrome_test_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+</LinearLayout>
